@@ -1,0 +1,11 @@
+/* Base styles - MUI CssBaseline handles the reset */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background-color: #212121;
+  color-scheme: dark;
+  margin: 0;
+  padding: 0;
+}

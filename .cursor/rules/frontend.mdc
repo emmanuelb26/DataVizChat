@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+---
+name: frontend
+description: This is a new rule
+---
+
+
+# Overview
+
+
+Insert overview text here. The agent will only see this should they choose to apply the rule.
+
+
+- Use TypeScript everywhere, no JavaScript files.
+- Prefer functional components over class components.
+- Do not add new dependencies without asking.
+- Follow existing folder structure strictly.
+- Keep README.md file updated
+
+
+<!-- Security -->
+- Do not refactor unrelated code.
+- Do not rename files unless explicitly asked.
+- Do not delete code without confirmation.
+
+
+<!-- Code -->
+- Do not use "any" and "unknown" for typing. Ask when you don't know.
+- When adding new functional function, add tests in test file.
+- Ask before using useEffect.
+- When test is broken because new code, explain why test failed before fix it.
+- Check for existing value before creating enum or list.
+- When adding new function in utils file, set it on bottom of the file.
+
+
+<!-- Styling -->
+- Prefer use of MUI theme and palette in place of rgb, rgba etc...
+- If style has 3 lines or mores, set it in style file.
